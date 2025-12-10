@@ -1,0 +1,49 @@
+
+* {
+    background-color: aqua;
+}
+html{
+    color:rebeccapurple;
+}
+
+body{
+
+    font-family: Arial;
+    font-size: 16px;
+}
+header{
+    text-align: center;
+    background-color:pink;
+    color: azure;
+
+}
+header img {
+    width: 100px;
+    height:auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.logo{
+    border-radius: 10px;
+    width: 20%;
+    height: auto;
+}
+.content h2{
+font-size: 1.6rem;
+color:maroon;
+margin: 50px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 8px;
+}
+.btn-enviar{
+    background: palevioletred;
+}
+.btn-enviar:hover{
+    filter:brightness(1.50);
+}
