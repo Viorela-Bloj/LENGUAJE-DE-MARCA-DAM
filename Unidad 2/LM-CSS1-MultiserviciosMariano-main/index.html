@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multiservicios Mariano</title>
 
-     <link rel="stylesheet" href="styles.css"
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
 
     <header>
-        <h1> Servios Mariano</h1>
-        <p>Soluciones práticas para tu día en el campo y en la ciudad</p>
+        <h1>Multiservicios Mariano</h1>
+        <p>Soluciones prácticas para tu día a día en el campo y en la ciudad.</p>
         <img src="logo.jpg" alt="Profesional pintando" class="logo">
+
     </header>
 
     <main class="layout">
         <article class="content">
             <h2>Servicios que ofrecemos</h2>
             <p>
-                En <strong>Multiservicios Mariano</strong> realizamos todo tipo de tareas domésticas, agrícolas y de mantenimiento.  
+                En <strong>Multiservicios Mariano</strong> realizamos todo tipo de tareas domésticas, agrícolas y de
+                mantenimiento.
                 Nuestros principales servicios incluyen:
             </p>
 
-            <ul>
+            <ol>
                 <li>Quema controlada de rastrojos y limpieza de fincas.</li>
                 <li>Recados y transporte de pequeños paquetes.</li>
                 <li>Lavado y engrase de vehículos y maquinaria agrícola.</li>
                 <li>Pequeñas reparaciones en el hogar o el taller.</li>
-            </ul>
+            </ol>
 
             <h3>Tarifas orientativas</h3>
+
             <table class="tabla-tarifas">
                 <thead>
                     <tr>
@@ -72,27 +77,31 @@
 
         <section class="contacto">
             <h2>Formulario de contacto</h2>
-            <p>Si deseas pedir presupuesto o tienes alguna consulta, rellena este formulario:</p>
+            <p>Si <span class="trozo">deseas pedir</span> presupuesto o tienes alguna consulta, rellena este formulario:</p>
 
             <form action="#" method="post" class="form">
-                <label class="campo" >
-                    <span>Nombre:</span>
-                    <input type="text" name="nombre" placeholder="Tu nombre completo" required>
-                </label>
-              
                 <label class="campo">
-                    <span>Email:</span>
+                    <span>Nombre:</span>
+                <input type="text" name="nombre" placeholder="Tu nombre completo" required>
+                </label>
+                
+
+                <label class="campo">
+                    <span>Email:</span>                  
                     <input type="email" name="email" placeholder="tu@email.com" required>
                 </label>
+                
 
                 <label class="campo">
                     <span>Mensaje:</span>
                     <textarea name="mensaje" rows="5" cols="40" placeholder="Escribe aquí tu consulta..."></textarea>
                 </label>
+               
 
-                <button type="submit" class=" btn btn-enviar">Enviar</button>
-                <button type="reset" class=" btn btn-borrar">Borrar</button>
-                
+                <div class="acciones">
+                    <button type="submit" class="btn btn-enviar">Enviar</button>
+                    <button type="reset" class="btn btn-borrar">Borrar</button>
+                </div>
             </form>
         </section>
     </main>
@@ -106,4 +115,5 @@
     </footer>
 
 </body>
+
 </html>
